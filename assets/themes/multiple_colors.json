@@ -1,0 +1,47 @@
+{
+  "wheel": {
+    "borderDisplayType": {
+      "type": "standard",
+      "color": "#FFA500"
+    },
+    "circleColor": "#FFD700",
+    "prizes": [{
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#ffffff",
+      "backgroundColor": "#ff9800"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#ffffff",
+      "backgroundColor": "#673ab7"
+    }]
+  },
+  "form": {
+    "title": "Win an exclusive",
+    "description": "",
+    "fontFamily": "Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif",
+    "titleColor": "#000000",
+    "contentColor": "#000000"
+  },
+  "popup": {
+    "backgroundColor": "#ffffff",
+    "backgroundImage": "",
+    "mobileBackgroundImage": ""
+  },
+  "opener": {
+    "content": "Spin Now",
+    "distance": {
+      "bottom": "60px",
+      "left": "25px",
+      "right": "25px"
+    },
+    "contentColor": "#ffffff",
+    "backgroundColor": "#2097df"
+  },
+  "announcement": {
+    "fontFamily": "Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif",
+    "contentColor": "#121212",
+    "backgroundColor": "#fdc73b"
+  }
+}

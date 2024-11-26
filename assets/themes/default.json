@@ -1,0 +1,92 @@
+{
+  "wheel": {
+    "borderDisplayType": {
+      "type": "standard",
+      "color": "#FFA500"
+    },
+    "circleColor": "#FFD700",
+    "prizes": [{
+      "fontFamily": "Helvetica, Arial",
+      "fontSize": "32px",
+      "contentColor": "#ffffff",
+      "backgroundColor": "#ff9800"
+    }, {
+      "fontFamily": "Helvetica, Arial",
+      "fontSize": "32px",
+      "contentColor": "#ffffff",
+      "backgroundColor": "#673ab7"
+    }]
+  },
+  "form": {
+    "title": "Win an exclusive",
+    "description": "",
+    "fontFamily": "Helvetica, Arial",
+    "titleColor": "#000000",
+    "contentColor": "#000000"
+  },
+  "popup": {
+    "backgroundColor": "#ffffff",
+    "backgroundImage": "",
+    "mobileBackgroundImage": ""
+  },
+  "opener": {
+    "content": "Spin Now",
+    "distance": {
+      "bottom": "60px",
+      "left": "25px",
+      "right": "25px"
+    },
+    "contentColor": "#ffffff",
+    "backgroundColor": "#2097df"
+  },
+  "announcement": {
+    "position": "bottom",
+    "displayType": "sticky",
+    "fontFamily": "Helvetica, Arial",
+    "contentColor": "#121212",
+    "backgroundColor": "#fdc73b",
+    "upcomingEvent": {
+      "enabled": true,
+      "content": "The lucky wheel program with attractive prizes will launch at {{TIME}}",
+      "displayDays": 7
+    },
+    "readyToSpin": {
+      "enabled": true,
+      "content": "Click {{SPIN}} to receive attractive prizes now!"
+    },
+    "useWinningPrizes": {
+      "enabled": true,
+      "content": "Your coupon code {{CODE}} is reserved for a limit time. You can apply it at the checkout page."
+    },
+    "getSpinByOrdering": {
+      "enabled": true,
+      "content": "Get a spin when you purchase an order.",
+      "orderAmountRestriction": {
+        "enabled": true,
+        "amount": {
+          "currency": "USD",
+          "value": 100
+        },
+        "content": "Get a spin when you purchase an order from {{AMOUNT}}"
+      }
+    },
+    "readyToSpinAgain": {
+      "enabled": true,
+      "content": "You just received a new spin! Click {{SPIN}} to receive attractive prizes now!"
+    },
+    "countDownToLaunch": {
+      "enabled": true,
+      "content": "The countdown begins! Just {{TIME}} until the event starts!",
+      "displayHours": 24
+    },
+    "countDownToClose": {
+      "enabled": true,
+      "content": "Limited time only! Event ends in {{TIME}}",
+      "displayHours": 24
+    },
+    "attentionEffect": {
+      "enabled": true,
+      "intervalTime": 4
+    }
+  }
+}
