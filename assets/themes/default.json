@@ -6,12 +6,12 @@
     },
     "circleColor": "#FFD700",
     "prizes": [{
-      "fontFamily": "Helvetica, Arial",
+      "fontFamily": "Arial",
       "fontSize": "32px",
       "contentColor": "#ffffff",
       "backgroundColor": "#ff9800"
     }, {
-      "fontFamily": "Helvetica, Arial",
+      "fontFamily": "Arial",
       "fontSize": "32px",
       "contentColor": "#ffffff",
       "backgroundColor": "#673ab7"
@@ -20,7 +20,7 @@
   "form": {
     "title": "Win an exclusive",
     "description": "",
-    "fontFamily": "Helvetica, Arial",
+    "fontFamily": "Arial",
     "titleColor": "#000000",
     "contentColor": "#000000"
   },
@@ -42,7 +42,7 @@
   "announcement": {
     "position": "bottom",
     "displayType": "sticky",
-    "fontFamily": "Helvetica, Arial",
+    "fontFamily": "Arial",
     "contentColor": "#121212",
     "backgroundColor": "#fdc73b",
     "upcomingEvent": {
@@ -62,7 +62,7 @@
       "enabled": true,
       "content": "Get a spin when you purchase an order.",
       "orderAmountRestriction": {
-        "enabled": true,
+        "enabled": false,
         "amount": {
           "currency": "USD",
           "value": 100
