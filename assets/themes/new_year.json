@@ -1,10 +1,24 @@
 {
   "wheel": {
-    "borderDisplayType": {
+    "borderAround": {
       "type": "standard",
       "color": "#FFA500"
     },
-    "circleColor": "#FFD700",
+    "prizeBorder": {
+      "displayed": true,
+      "color": "#FFFFFF"
+    },
+    "circleCenter": {
+      "displayed": true,
+      "borderType": "standard",
+      "borderColor": "#FFA500",
+      "backgroundColor": "#FFD700"
+    },
+    "sticker": {
+      "borderType": "standard",
+      "borderColor": "#FFA500",
+      "backgroundColor": "#FFD700"
+    },
     "prizes": [{
       "fontFamily": "Arial",
       "fontSize": "32px",
@@ -27,7 +41,8 @@
   "popup": {
     "backgroundColor": "#ffffff",
     "backgroundImage": "",
-    "mobileBackgroundImage": ""
+    "mobileBackgroundImage": "",
+    "backgroundMusic": ""
   },
   "opener": {
     "content": "Spin Now",
@@ -37,7 +52,11 @@
       "right": "25px"
     },
     "contentColor": "#ffffff",
-    "backgroundColor": "#2097df"
+    "backgroundColor": "#2097df",
+    "attentionEffect": {
+      "enabled": true,
+      "intervalTime": 4
+    }
   },
   "announcement": {
     "position": "bottom",
