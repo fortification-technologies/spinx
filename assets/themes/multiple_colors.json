@@ -1,34 +1,64 @@
 {
   "wheel": {
     "borderAround": {
-      "type": "standard",
-      "color": "#FFA500"
+      "type": "auto_darken",
+      "color": ""
     },
     "prizeBorder": {
-      "displayed": true,
-      "color": "#FFFFFF"
+      "displayed": false,
+      "color": ""
     },
     "circleCenter": {
       "displayed": true,
-      "borderType": "standard",
-      "borderColor": "#FFA500",
-      "backgroundColor": "#FFD700"
+      "borderType": "none",
+      "borderColor": "",
+      "backgroundColor": "#960b0a"
     },
     "sticker": {
-      "borderType": "standard",
-      "borderColor": "#FFA500",
-      "backgroundColor": "#FFD700"
+      "borderType": "none",
+      "borderColor": "",
+      "backgroundColor": "#353131"
     },
     "prizes": [{
       "fontFamily": "Arial",
       "fontSize": "32px",
-      "contentColor": "#ffffff",
-      "backgroundColor": "#ff9800"
+      "contentColor": "#000000",
+      "backgroundColor": "#cf3b53"
     }, {
       "fontFamily": "Arial",
       "fontSize": "32px",
-      "contentColor": "#ffffff",
-      "backgroundColor": "#673ab7"
+      "contentColor": "#000000",
+      "backgroundColor": "#e86f51"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#000000",
+      "backgroundColor": "#f4a462"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#000000",
+      "backgroundColor": "#e8c568"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#000000",
+      "backgroundColor": "#2a9d90"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#000000",
+      "backgroundColor": "#4e7d8f"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#000000",
+      "backgroundColor": "#a5d5b5"
+    }, {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "contentColor": "#000000",
+      "backgroundColor": "#88bc57"
     }]
   },
   "form": {
