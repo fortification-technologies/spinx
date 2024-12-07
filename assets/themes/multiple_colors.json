@@ -69,9 +69,11 @@
     "contentColor": "#000000"
   },
   "popup": {
-    "backgroundColor": "#ffffff",
-    "backgroundImage": "",
-    "mobileBackgroundImage": "",
+    "background": {
+      "backgroundColor": "#ffffff",
+      "backgroundImage": "",
+      "mobileBackgroundImage": ""
+    },
     "backgroundMusic": ""
   },
   "opener": {
