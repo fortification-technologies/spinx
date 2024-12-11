@@ -84,11 +84,7 @@
       "right": "25px"
     },
     "contentColor": "#ffffff",
-    "backgroundColor": "#2097df",
-    "attentionEffect": {
-      "enabled": true,
-      "intervalTime": 4
-    }
+    "backgroundColor": "#2097df"
   },
   "announcement": {
     "position": "bottom",
@@ -134,10 +130,6 @@
       "enabled": true,
       "content": "Limited time only! Event ends in {{TIME}}",
       "displayHours": 24
-    },
-    "attentionEffect": {
-      "enabled": true,
-      "intervalTime": 4
     }
   }
 }
