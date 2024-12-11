@@ -78,11 +78,6 @@
   },
   "opener": {
     "content": "Spin Now",
-    "distance": {
-      "bottom": "60px",
-      "left": "25px",
-      "right": "25px"
-    },
     "contentColor": "#ffffff",
     "backgroundColor": "#2097df"
   },
