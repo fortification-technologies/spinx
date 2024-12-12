@@ -21,42 +21,42 @@
     },
     "prizes": [{
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#cf3b53"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#e86f51"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#f4a462"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#e8c568"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#2a9d90"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#4e7d8f"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#a5d5b5"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#88bc57"
     }]

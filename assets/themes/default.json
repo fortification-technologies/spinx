@@ -21,12 +21,12 @@
     },
     "prizes": [{
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#ffffff",
       "backgroundColor": "#ff9800"
     }, {
       "fontFamily": "Arial",
-      "fontSize": "32px",
+      "fontSize": 32,
       "contentColor": "#ffffff",
       "backgroundColor": "#673ab7"
     }]
