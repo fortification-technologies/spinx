@@ -82,49 +82,8 @@
     "backgroundColor": "#2097df"
   },
   "announcement": {
-    "position": "bottom",
-    "displayType": "sticky",
     "fontFamily": "Arial",
     "contentColor": "#121212",
-    "backgroundColor": "#fdc73b",
-    "upcomingEvent": {
-      "enabled": true,
-      "content": "The lucky wheel program with attractive prizes will launch at {{TIME}}",
-      "displayDays": 7
-    },
-    "readyToSpin": {
-      "enabled": true,
-      "content": "Click {{SPIN}} to receive attractive prizes now!"
-    },
-    "useWinningPrizes": {
-      "enabled": true,
-      "content": "Your coupon code {{CODE}} is reserved for a limit time. You can apply it at the checkout page."
-    },
-    "getSpinByOrdering": {
-      "enabled": true,
-      "content": "Get a spin when you purchase an order.",
-      "orderAmountRestriction": {
-        "enabled": false,
-        "amount": {
-          "currency": "USD",
-          "value": 100
-        },
-        "content": "Get a spin when you purchase an order from {{AMOUNT}}"
-      }
-    },
-    "readyToSpinAgain": {
-      "enabled": true,
-      "content": "You just received a new spin! Click {{SPIN}} to receive attractive prizes now!"
-    },
-    "countDownToLaunch": {
-      "enabled": true,
-      "content": "The countdown begins! Just {{TIME}} until the event starts!",
-      "displayHours": 24
-    },
-    "countDownToClose": {
-      "enabled": true,
-      "content": "Limited time only! Event ends in {{TIME}}",
-      "displayHours": 24
-    }
+    "backgroundColor": "#fdc73b"
   }
 }
