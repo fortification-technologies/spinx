@@ -1,5 +1,7 @@
 {
   "wheel": {
+    "fontFamily": "Arial",
+    "contentSize": 32,
     "borderAround": {
       "type": "standard",
       "color": "#FFA500"
@@ -20,23 +22,30 @@
       "backgroundColor": "#FFD700"
     },
     "prizes": [{
-      "fontFamily": "Arial",
-      "fontSize": 32,
+      "contentSize": 32,
       "contentColor": "#ffffff",
       "backgroundColor": "#ff9800"
     }, {
-      "fontFamily": "Arial",
-      "fontSize": 32,
+      "contentSize": 32,
       "contentColor": "#ffffff",
       "backgroundColor": "#673ab7"
     }]
   },
-  "form": {
-    "title": "Win an exclusive",
-    "description": "",
+  "formLoginRequired": {
     "fontFamily": "Arial",
+    "title": "Win an exclusive",
+    "titleSize": 46,
     "titleColor": "#000000",
-    "contentColor": "#000000"
+    "subTitle": "",
+    "subTitleSize": 32,
+    "subTitleColor": "#000000",
+    "content": "",
+    "contentSize": 24,
+    "contentColor": "#000000",
+    "spinButtonContent": "Spin!",
+    "spinButtonContentSize": 18,
+    "spinButtonContentColor": "#000000",
+    "spinButtonBackgroundColor": "#FFFFFF"
   },
   "popup": {
     "background": {
@@ -53,6 +62,7 @@
   },
   "announcement": {
     "fontFamily": "Arial",
+    "contentSize": 14,
     "contentColor": "#121212",
     "backgroundColor": "#fdc73b"
   }
