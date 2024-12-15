@@ -1,5 +1,5 @@
 let spinx = {
-    version: "v202412150945",
+    version: "v202412150950",
     isDevelopment: !1,
     campaign: null,
     theme: null,
