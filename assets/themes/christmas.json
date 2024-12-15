@@ -1,7 +1,7 @@
 {
   "wheel": {
     "fontFamily": "Arial",
-    "contentSize": 32,
+    "contentSize": 42,
     "borderAround": {
       "type": "standard",
       "color": "#FFA500"
@@ -22,30 +22,36 @@
       "backgroundColor": "#FFD700"
     },
     "prizes": [{
-      "contentSize": 32,
       "contentColor": "#ffffff",
       "backgroundColor": "#ff9800"
     }, {
-      "contentSize": 32,
       "contentColor": "#ffffff",
       "backgroundColor": "#673ab7"
     }]
   },
   "formLoginRequired": {
     "fontFamily": "Arial",
-    "title": "Win an exclusive",
-    "titleSize": 46,
-    "titleColor": "#000000",
-    "subTitle": "",
-    "subTitleSize": 32,
-    "subTitleColor": "#000000",
-    "content": "",
-    "contentSize": 24,
-    "contentColor": "#000000",
-    "spinButtonContent": "Spin!",
-    "spinButtonContentSize": 18,
-    "spinButtonContentColor": "#000000",
-    "spinButtonBackgroundColor": "#FFFFFF"
+    "title": {
+      "content": "Win an exclusive",
+      "size": 2,
+      "color": "#000000"
+    },
+    "subTitle": {
+      "content": "",
+      "size": 1.5,
+      "color": "#000000"
+    },
+    "body": {
+      "content": "",
+      "size": 1,
+      "color": "#000000"
+    },
+    "spinButton": {
+      "content": "Spin!",
+      "size": 1.5,
+      "color": "#000000",
+      "backgroundColor": "#FFFFFF"
+    }
   },
   "popup": {
     "background": {
