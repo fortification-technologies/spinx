@@ -86,7 +86,7 @@
   },
   "announcement": {
     "fontFamily": "Arial",
-    "contentSize": 14,
+    "contentSize": 16,
     "contentColor": "#121212",
     "backgroundColor": "#fdc73b"
   }
