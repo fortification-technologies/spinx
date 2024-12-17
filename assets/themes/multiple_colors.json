@@ -47,26 +47,26 @@
       "backgroundColor": "#88bc57"
     }]
   },
-  "formLoginRequired": {
+  "form": {
     "fontFamily": "Arial",
     "title": {
-      "content": "Win an exclusive",
-      "size": 2,
+      "text": "Win an exclusive prize!",
+      "size": 32,
       "color": "#000000"
     },
-    "subTitle": {
-      "content": "",
-      "size": 1.5,
+    "content": {
+      "text": "Enter your information to spin the wheel for a chance to win.",
+      "size": 20,
       "color": "#000000"
     },
-    "body": {
-      "content": "",
-      "size": 1,
+    "introduction": {
+      "text": "Welcome to the lucky spin program. Chance to win attractive prizes!",
+      "size": 20,
       "color": "#000000"
     },
     "spinButton": {
-      "content": "Spin!",
-      "size": 1.5,
+      "text": "Spin!",
+      "size": 24,
       "color": "#000000",
       "backgroundColor": "#FFFFFF"
     }
