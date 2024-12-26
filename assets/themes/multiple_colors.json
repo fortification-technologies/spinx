@@ -1,7 +1,7 @@
 {
   "wheel": {
     "fontFamily": "Arial",
-    "contentSize": 32,
+    "contentSize": 42,
     "borderAround": {
       "type": "auto_darken",
       "color": ""
@@ -22,72 +22,153 @@
       "backgroundColor": "#353131"
     },
     "prizes": [{
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#cf3b53"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#e86f51"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#f4a462"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#e8c568"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#2a9d90"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#4e7d8f"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#a5d5b5"
     }, {
-      "contentSize": 32,
       "contentColor": "#000000",
       "backgroundColor": "#88bc57"
     }]
   },
-  "formLoginRequired": {
+  "prizeMessages": {
+    "none": {
+      "title": {
+        "text": "You lose!",
+        "size": 32,
+        "color": "#000000"
+      },
+      "content": {
+        "text": "Maybe you're out of luck this time, see you next time.",
+        "size": 16,
+        "color": "#000000"
+      }
+    },
+    "discount": {
+      "title": {
+        "text": "You won {{PRIZE}}!",
+        "size": 32,
+        "color": "#000000"
+      },
+      "content": {
+        "text": "Copy your coupon code and use it into the discount input at checkout page.",
+        "size": 16,
+        "color": "#000000"
+      }
+    },
+    "freeShipping": {
+      "title": {
+        "text": "You won {{PRIZE}}!",
+        "size": 32,
+        "color": "#000000"
+      },
+      "content": {
+        "text": "Copy your coupon code and use it into the discount input at checkout page.",
+        "size": 16,
+        "color": "#000000"
+      }
+    }
+  },
+  "form": {
     "fontFamily": "Arial",
-    "title": "Win an exclusive",
-    "titleSize": 46,
-    "titleColor": "#000000",
-    "subTitle": "",
-    "subTitleSize": 32,
-    "subTitleColor": "#000000",
-    "content": "",
-    "contentSize": 24,
-    "contentColor": "#000000",
-    "spinButtonContent": "Spin!",
-    "spinButtonContentSize": 18,
-    "spinButtonContentColor": "#000000",
-    "spinButtonBackgroundColor": "#FFFFFF"
+    "title": {
+      "text": "Win an exclusive prize!",
+      "size": 32,
+      "color": "#000000"
+    },
+    "content": {
+      "text": "Enter your information to spin the wheel for a chance to win.",
+      "size": 20,
+      "color": "#000000"
+    },
+    "introduction": {
+      "text": "Welcome to the lucky spin program. Chance to win attractive prizes!",
+      "size": 20,
+      "color": "#000000"
+    },
+    "spinButton": {
+      "text": "Spin!",
+      "size": 24,
+      "color": "#000000",
+      "backgroundColor": "#FFFFFF"
+    }
   },
   "popup": {
     "background": {
       "backgroundColor": "#ffffff",
       "backgroundImage": "",
       "mobileBackgroundImage": ""
-    },
-    "backgroundMusic": ""
+    }
   },
   "opener": {
+    "distance": {
+      "bottom": 60,
+      "left": 25,
+      "right": 25
+    },
     "content": "Spin Now",
     "contentColor": "#ffffff",
-    "backgroundColor": "#2097df"
+    "backgroundColor": "#2097df",
+    "attentionEffect": {
+      "enabled": true,
+      "intervalTime": 10
+    }
   },
   "announcement": {
     "fontFamily": "Arial",
-    "contentSize": 14,
+    "contentSize": 16,
     "contentColor": "#121212",
-    "backgroundColor": "#fdc73b"
+    "backgroundColor": "#fdc73b",
+    "upcomingEvent": {
+      "enabled": true,
+      "displayDays": 5,
+      "content": "The lucky wheel program with attractive prizes will launch at {{TIME}}."
+    },
+    "readyToSpin": {
+      "enabled": true,
+      "content": "Click {{SPIN}} to receive attractive prizes now."
+    },
+    "useWinningPrizes": {
+      "enabled": true,
+      "content": "Your coupon code {{CODE}} is reserved for a limit time. You can apply it at the checkout page."
+    },
+    "getSpinByOrdering": {
+      "enabled": true,
+      "content": "Get a spin when you purchase an order.",
+      "orderAmountRestriction": {
+        "enabled": false,
+        "content": "Get a spin when you purchase an order from {{AMOUNT}}."
+      }
+    },
+    "readyToSpinAgain": {
+      "enabled": true,
+      "content": "You just received a new spin! Click {{SPIN}} to receive attractive prizes now."
+    },
+    "countDownToLaunch": {
+      "enabled": true,
+      "displayHours": 72,
+      "content": "The countdown begins! Just {{TIME}} until the event starts!"
+    },
+    "countDownToClose": {
+      "enabled": true,
+      "displayHours": 24,
+      "content": "Limited time only! Event ends in {{TIME}}."
+    }
   }
 }
