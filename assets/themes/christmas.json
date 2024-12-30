@@ -76,12 +76,12 @@
     },
     "content": {
       "text": "Enter your information to spin the wheel for a chance to win.",
-      "size": 20,
+      "size": 16,
       "color": "#000000"
     },
     "introduction": {
       "text": "Welcome to the lucky spin program. Chance to win attractive prizes!",
-      "size": 20,
+      "size": 16,
       "color": "#000000"
     },
     "spinButton": {
